@@ -20,6 +20,7 @@ public class PackageMeasurementController {
     )
     @GetMapping
     public ArrayList<Integer> convertMeasurement(@RequestParam @Pattern(regexp = "^[a-z_]+$") String input) {
+        // a = 97 in ascii
 
         return null;
     }
