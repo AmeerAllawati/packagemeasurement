@@ -20,6 +20,7 @@ public class PackageMeasurementService {
      * @return Array List of the converted values
      */
     public ArrayList<Integer> getMeasuredInflows(String input) {
+        measuredInflows.clear();
         for (int i = 0; i < input.length(); ++i) {
             // represents the number of parsed values
             int takenValues = 0;
