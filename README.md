@@ -7,10 +7,10 @@ This API decodes an input string and outputs an ArrayList of integers representi
 Before running the API, ensure that you have the following prerequisites installed on your machine:
 
 - Docker: Check if Docker is installed by running the following command:
-'docker --version'
+`docker --version`
 
 - Docker Compose: Check if Docker Compose is installed by running the following command:
-'docker-compose --version'
+`docker-compose --version`
 
 If Docker Compose is not installed, please refer to the Docker documentation to install it.
 
@@ -25,7 +25,7 @@ To run the API, follow these steps:
 3. Navigate to the project directory.
 
 4. Run the following command to start the API:
-'docker-compose up'
+`docker-compose up`
 
 This command will start the API containers and display the logs in the terminal. You should see messages indicating that the API is running on `localhost:8080`.
 
